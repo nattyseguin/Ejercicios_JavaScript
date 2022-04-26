@@ -1,0 +1,15 @@
+.h3{
+	 background-image:url('bola_numeros.png');
+	 background-repeat: false;
+	 text-align:center;
+	 background-size: cover;
+	 
+}
+
+.h2{
+	 background-image:url('bola_especial.png');
+	 background-repeat: false;
+	 text-align:center;
+	 background-size: contain;
+	 
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+        <meta charset="UTF-8"/>
+        <title>Exercicio lotería</title>	
+		<script src="Exercicio_loteria.js"></script>
+		<link href="Exercicio_loterias.css" rel="stylesheet" type="text/css" media="all">
+	</head>
+	<body>
+		<h1>Haz tu boleto</h1>
+		<div>
+			<label for="numApuestas">Número de combinaciones</label>
+			<input id="numApuestas" name ="numApuestas" type="Number" value="1" min="1" ></input>
+		</div><br>
+		
+		<div>
+			<label for="juego">Escoge un juego</label>		
+			<select id="juego" name="juego" size="4">
+				<option id="0" value="0">La Primitiva</option>
+				<option id="1" value="1">El Gordo</option>
+				<option id="2" value="2">El Euromillón</option>
+				<option id="3" value="3">La Bonoloto</option>
+			</select>
+		</div><br>
+		
+		<div id="solucion" style="text-align: center;"></div>
+	</body>
+</html>
